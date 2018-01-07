@@ -97,11 +97,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   uint8_t r = ENC28_readOp(0, 0); // if returned value is 0xFA, then correct
   ENC28_Init();
-//  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_7, GPIO_PIN_RESET);
-//  spiData[0]= 0x01;
-//  HAL_SPI_Transmit(&hspi1, spiData, 1, 100);
-//  HAL_SPI_Receive(&hspi1, &spiData[1], 1, 100);
-//  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_7, GPIO_PIN_SET);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
